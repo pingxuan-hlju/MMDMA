@@ -33,7 +33,7 @@ drugsimilarity.txt:Interactions between drugs based on functional
 drugheatsimilartiy.txt:Interactions between druds based on heat kernel
 microbe_microbe_similarity:Similarities between microbes  
 net1.mat:Adjacency matrix of drug and microbe heterogeneous graph  
-ST1:  Top 20 candidate microbes predicted for each drug.
+SF2:  Top 20 candidate microbes predicted for each drug.
 
 ## Run steps
 
