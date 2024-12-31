@@ -1,15 +1,15 @@
 # MMDMA  
 
 ## Introduction  
-This project implements a multi-perspective node feature distribution encoding and multi-scale hypergraph learning method for inferring drug-related microbes (MMDMA). 
+The project  is an implementation of a multi-perspective node feature distribution encoding and multi-scale hypergraph learning method for inferring drug-related microbes (MMDMA). 
 
 ---
 
 ## Catalogs  
 - **/data**: Contains the dataset used in our method.
-- **/code**: Contains the code implementation of the MMDMA algorithm.
-- **dataloader.py**: Processes drug and microbial similarities, associations, embeddings, and adjacency matrices.
-- **sim.py**: Calculates drug attribute similarities based on the heat kernel.
+- **/code**: Contains the code implementation of MMDMA algorithm.
+- **dataloader.py**: Processes the drug and microbial similarities, associations, embeddings, and adjacency matrices.
+- **sim.py**: Calculates the drug attribute similarities based on heat kernel.
 - **model.py**: Defines the model.
 - **main.py**: Trains the model.
 - **tools.py**: Contains the early stopping function.
@@ -30,9 +30,9 @@ The MMDMA code has been implemented and tested in the following development envi
 ## Dataset  
 - **drug_names.txt**: Contains the names of 1373 drugs.  
 - **microbe_names.txt**: Contains the names of 173 microbes.
-- **drugsimilarity.zip**: A compressed file that contains two txt files: one for drug functional similarities and the other for drug attribute similarities.
+- **drugsimilarity.zip**: A compressed file that contains files.
   - **drugfusimilarity.txt**: Includes the functional similarities among the drugs.
-  - **drughesimilarity.txt**: Includes the drug attribute similarities calculated based on the heat kernel.
+  - **drughesimilarity.txt**: Includes the drug attribute similarities calculated by heat kernel.
 - **microbe_microbe_similarity.txt**: Contains the microbe similarities.  
 - **net1.mat**: Represents the adjacency matrix of the drug-microbe heterogeneous graph.
 - **Supplementary file SF2.xlsx**: Lists the top 20 candidate microbes for each drug.
@@ -40,16 +40,12 @@ The MMDMA code has been implemented and tested in the following development envi
 ---
 
 ## How to Run the Code  
-1. **Data preprocessing**: Generate adjacency matrices, embeddings, and other necessary inputs for training.  
+1. **Data preprocessing**: Constructs the adjacency matrices, embeddings, and other inputs for training the model.  
     ```bash
     python dataloader.py
     ```  
 
-2. **Train and test the model**:  
+2. **Train and test the model**.  
     ```bash
     python main.py
     ```  
-
-**Note**: Before running `main.py`, you need to create a folder, result, to store the model's training results.
-
-
