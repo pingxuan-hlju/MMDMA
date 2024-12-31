@@ -31,14 +31,14 @@ main : Train the model.
 ## Dataset
 
 ***
-drug_names: contains names of 1373 drugs.
-microbe_names: contains names of 173 microbes.
-drugsimilarity.zip：Similarities between drugs  
-drugsimilarity.txt: Interactions between drugs based on functional
-drugheatsimilartiy.txt: Interactions between drugs based on heat kernel
-microbe_microbe_similarity: Similarities between microbes  
-net1.mat: Adjacency matrix of drug and microbe heterogeneous graph  
-SF2: Top 20 candidate microbes predicted for each drug.
+-drug_names: contains names of 1373 drugs.
+-microbe_names: contains names of 173 microbes.
+-drugsimilarity.zip：Similarities between drugs  
+-drugsimilarity.txt: Interactions between drugs based on functional
+-drugheatsimilartiy.txt: Interactions between drugs based on heat kernel
+-microbe_microbe_similarity: Similarities between microbes  
+-net1.mat: Adjacency matrix of drug and microbe heterogeneous graph  
+-SF2: Top 20 candidate microbes predicted for each drug.
 
 ## Run steps
 
