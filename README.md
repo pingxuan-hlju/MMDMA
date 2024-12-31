@@ -16,12 +16,17 @@ scikit-learn == 1.0.2
 
 ***
 
-data: dataset used in our study.\\
-result: reslut directory storing preprocessed features, segmented dataset, trained model, and prediction result.\\
-tools: contains earlying stop function.\\
-dataloader: a class for loading data.\\
-model : Define the model.\\
-main : Train the model.\\
+data: dataset used in our study.
+
+result: reslut directory storing preprocessed features, segmented dataset, trained model, and prediction result.
+
+tools: contains earlying stop function.
+
+dataloader: a class for loading data.
+
+model : Define the model.
+
+main : Train the model.
 
 ## Dataset
 
