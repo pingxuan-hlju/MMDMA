@@ -30,7 +30,7 @@ The MMDMA code has been implemented and tested in the following development envi
 ## Dataset  
 - **drug_names.txt**: Contains the names of 1373 drugs.  
 - **microbe_names.txt**: Contains the names of 173 microbes.
-- **drugsimilarity.zip**: A compressed file that contains files.
+- **drugsimilarity.zip**: A compressed file that contains the following two files.
   - **drugfusimilarity.txt**: Includes the functional similarities among the drugs.
   - **drughesimilarity.txt**: Includes the drug attribute similarities calculated by heat kernel.
 - **microbe_microbe_similarity.txt**: Contains the microbe similarities.  
