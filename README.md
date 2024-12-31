@@ -7,6 +7,7 @@ This project implements a multi-perspective node feature distribution encoding a
 
 ## Catalogs  
 - **/data**: Contains the dataset used in our method.
+- 
 -**/code**: Contains the code implementation of the MMDMA algorithm.
 - **dataloader.py**: Processes drug and microbial similarities, associations, embeddings, and adjacency matrices.
 - **sim.py**: Calculates drug attribute similarities based on the heat kernel.
