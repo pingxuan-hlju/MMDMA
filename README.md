@@ -1,4 +1,4 @@
-# Multi-perspective and Multi-scale Drug-Microbe Association  
+# MMDMA
 
 ## Introduction  
 The project  is an implementation of a multi-perspective node feature distribution encoding and multi-scale hypergraph learning method for inferring drug-related microbes (MMDMA). 
