@@ -9,7 +9,7 @@ The project  is an implementation of a multi-perspective node feature distributi
 - **/data**: Contains the dataset used in our method.
 - **/code**: Contains the code implementation of MMDMA algorithm.
 - **dataloader.py**: Processes the drug and microbial similarities, associations, embeddings, and adjacency matrices.
-- **sim.py**: Calculates the drug attribute similarities based on heat kernel.
+- **sim.py**: Calculates the drug attribute similarity based on the heat kernel and the microbe similarity based on the Gaussian kernel.
 - **model.py**: Defines the model.
 - **main.py**: Trains the model.
 - **tools.py**: Contains the early stopping function.
@@ -33,7 +33,8 @@ The MMDMA code has been implemented and tested in the following development envi
 - **drugsimilarity.zip**: A compressed file that contains the following two files.
   - **drugfusimilarity.txt**: Includes the functional similarities among the drugs.
   - **drughesimilarity.txt**: Includes the drug attribute similarities calculated by heat kernel.
-- **microbe_microbe_similarity.txt**: Contains the microbe similarities.  
+- **microbe_microbe_similarity.txt**: Contains the cosine similarity of microbes.
+- **newmicrobesimilarity.txt**: Contains the Gaussian kernel similarity of microbes.
 - **net1.mat**: Represents the adjacency matrix of the drug-microbe heterogeneous graph.
 - **Supplementary file SF2.xlsx**: Lists the top 20 candidate microbes for each drug.
 
